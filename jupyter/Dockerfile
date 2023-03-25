@@ -1,4 +1,4 @@
-FROM barretthugh/py11
+FROM barretthugh/py311
 
 COPY jupyter/requirement.txt /requirement.txt
 COPY jupyter/jupyter_notebook_config.py /root/.jupyter/
