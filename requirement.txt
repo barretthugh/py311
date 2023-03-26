@@ -17,5 +17,4 @@ aiohttp
 aioredis
 asyncpg
 redis
-pytdx
 pandas-ta

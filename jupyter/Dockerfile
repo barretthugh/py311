@@ -9,9 +9,6 @@ COPY jupyter/jupyter_notebook_config.py /root/.jupyter/
 RUN apt-get update \
   && apt install -yqq libpq-dev \
   && pip install -r /requirement.txt \
-  && pip install Tushare \
-  && pip uninstall prompt_toolkit -y \
-  && pip install prompt-toolkit==2.0.10 \
   && jupyter nbextension enable --py widgetsnbextension \
   && jupyter serverextension enable --py jupyterlab \
   && rm -rf /var/cache/*

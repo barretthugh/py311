@@ -23,7 +23,6 @@ jupyter-console
 jupyter-core
 jupyterlab
 gensim
-cn_stock_holidays
 Pygments
 pyparsing
 PyYAML
@@ -34,6 +33,7 @@ nbconvert
 nbformat
 notebook
 matplotlib
+ipympl
 Markdown
 MarkupSafe
 kiwisolver
